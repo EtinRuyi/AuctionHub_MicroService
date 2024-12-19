@@ -1,7 +1,10 @@
+using AuctionService.Consumers;
 using AuctionService.Data;
 using AuctionService.RequestHelpers;
+using AuctionService.Services;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
+using Npgsql;
 
 var builder = WebApplication.CreateBuilder(args);
 
